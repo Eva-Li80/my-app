@@ -69,6 +69,7 @@ function App() {
     <div
       className="AppContainer"
     >
+      <h3 className="rubrik">Let´s play hangman!</h3>
       <div className="textlosewin">
         {isWinner && "Winner! - Refresh to try again"}
         {isLoser && "Nice Try - Refresh to try again"}

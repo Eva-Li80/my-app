@@ -1,9 +1,9 @@
 .btn {
-    width: 80%;
+    width: 60%;
     border: 3px solid rgb(76, 30, 30);
     background:   rgb(199, 103, 103);
     aspect-ratio: 1 / 1;
-    font-size: 2rem;
+    font-size: 1rem;
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;

@@ -3,13 +3,19 @@
   display:flex;
   flex-direction:column;
   align-items:center;
-  gap: 1rem;
+  gap: 0.5rem;
   margin: 0 auto;
 }
 
+.rubrik{
+    color: brown;
+    text-decoration: underline;
+}
+
 .textlosewin {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
+    color: green;
 }
 
 
@@ -17,8 +23,7 @@
 
 .hangManWord {
     display: flex;
-    /* gap:-25em; */
-    font-size: 6rem;
+    font-size: 3rem;
     font-weight: bold;
     text-transform: uppercase;
     font-family: monospace;
@@ -26,7 +31,7 @@
 }
 
 .letter {
-    border-bottom: .1em solid black;
+    border-bottom: .1rem solid black;
 }
 
 
@@ -127,40 +132,3 @@
     rotate: -60deg;
     transform-origin: right bottom;
 }
-
-
-/* Keyboard style */
-/* .KeyBoard {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
-  gap: .5em
-}
-
-.button {
-    width: 10%;
-    border: 3px solid black;
-    background: none;
-    aspect-ratio: 1 / 1;
-    font-size: 2.5rem;
-    text-transform: uppercase;
-    padding: .5rem;
-    font-weight: bold;
-    cursor: pointer;
-    color: black;
-
-}
-
-.button.active {
-  -webkit-margin-bottom-collapse: hsl(200, 100%, 50%);
-  color: white;
-}
-
-.button.inactive {
-    opacity: .3;
-}
-
-.button:hover:not(:disabled),
-.button:focus:not(:disabled) {
-    background-color: hsl(200, 100%, 75%);
-}
-     */
