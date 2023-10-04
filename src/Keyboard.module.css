@@ -1,0 +1,25 @@
+.btn {
+    width: 80%;
+    border: 3px solid rgb(76, 30, 30);
+    background:   rgb(199, 103, 103);
+    aspect-ratio: 1 / 1;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+  }
+  
+  .btn.active {
+    background-color:  rgb(221, 162, 162);
+    color: white;
+  }
+  
+  .btn.inactive {
+    opacity: .3;
+  }
+  
+  .btn:hover:not(:disabled),
+  .btn:focus:not(:disabled) {
+    background-color: rgb(221, 162, 162);
+  }
